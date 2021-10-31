@@ -1,0 +1,83 @@
+<!-- var agora = new Date();
+var hora = agora.getDay();
+hora = 0
+switch(hora){
+
+  case 0:
+    console.log(`domingo`)
+    break
+  case 1:
+    console.log(`segunda`)
+    break
+  case 2:
+    console.log(`terça`)
+    break
+  case 3:
+    console.log(`quarta`)
+    break
+  case 4:
+    console.log(`quinta`)
+    break
+  case 5:
+    console.log(`sexta`)
+    break
+
+  case 6:
+    console.log(`sabado`)
+    break
+    default:  
+  console.log(`invalide`)
+  break
+} -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hora do Dia</title>
+  <style>
+       body{
+         background: rgb(70, 142, 236);
+         font: normal, 15pt arial;
+       }
+header{
+  color:white;
+  text-align: center;
+}
+section{
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267) ;
+  
+}
+div{
+  text-align: center;
+  padding: 8px;
+}
+footer{
+color: white;
+text-align: center;
+font-style: italic;
+}
+  </style>
+</head>
+<body onload="carregar()" >
+  <header>
+    <h1>Hora do Dia</h1> 
+  </header>
+    <section>
+      <div id="msg">
+        Aqui vai aparecer a mensagem...
+      </div>
+     <div id="foto" style="border-radius: 50%" width="250" height="250">
+        <img id="imagem" src="imagens/fotomanha.png" alt="Foto do dia">
+     </div>
+    </section>
+ <footer><p>CursoemVideo</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
