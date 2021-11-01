@@ -4,10 +4,10 @@
     var date= new Date() 
     var hora= date.getHours()  
     var minuto = date.getMinutes()
-    msg.innerHTML = `Agora são ${hora}:${minuto} horas.`
-    if(minuto < 10){
-      minuto= "0"+minuto
-    }
+    if (minuto < 10 ) {
+     var minuto = '0' + minuto;
+  }
+   msg.innerHTML = `Agora são ${hora}:${minuto} horas.`
     if (hora >= 5 && hora < 12)
  {
    //bom dia
